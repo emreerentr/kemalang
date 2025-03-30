@@ -10,8 +10,8 @@ there are no variable declarations, only 4 declared variables a, b, c, d
 
 commands:
   main commands:
-    print format \0 \0         prints the value in variable a
-    read format \0 \0          reads to variable a
+    print format var \0         prints the value in variable var
+    read format var \0          reads to variable var
     exit status \0 \0          exits with status status
     equate dest src            sets dest to src
   note that there are two formats, int (format = 1) and char (format = 2) and that there are 2 status: 0 (EXIT_SUCCESS in C) and 1 (EXIT_FAILURE in C)
